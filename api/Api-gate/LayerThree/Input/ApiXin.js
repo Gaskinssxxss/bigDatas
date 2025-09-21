@@ -19,7 +19,7 @@ const collectionNames = [
   "sosial",
 ];
 
-const mongoURL = `mongodb://bmblx999:indra999@ac-aitzldg-shard-00-00.uoyd2xl.mongodb.net:27017,ac-aitzldg-shard-00-01.uoyd2xl.mongodb.net:27017,ac-aitzldg-shard-00-02.uoyd2xl.mongodb.net:27017/${dbName}?replicaSet=atlas-vrw4js-shard-0&ssl=true&authSource=admin`;
+const mongoURL = ``;
 mongoose
   .connect(mongoURL, {
     useNewUrlParser: true,
